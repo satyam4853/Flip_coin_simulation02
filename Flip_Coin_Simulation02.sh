@@ -42,7 +42,7 @@ heads_count=0
 		echo Tails WON!
 	        echo Tails Won by $(($tails_count-$heads_count))
 	fi
-	
+	echo Heads Score : $heads_count --- Tails Score : $tails_count
 
 
 
